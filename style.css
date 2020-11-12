@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Karla", sans-serif;
+  background-color: var(--neutral-gray);
+}
+
+:root {
+  --primary-cyn1: hsl(179, 62%, 33%);
+  --primary-cyn: hsl(179, 62%, 43%);
+  --primary-yellow: hsl(71, 73%, 54%);
+
+  --neutral-gray: hsl(204, 43%, 80%);
+  --neutral-blue: hsl(218, 22%, 67%);
+}
+/* *** End of neutral style *** */
+
+/* ***Styles  Colors and sizing*** */
+
+.container {
+  margin: 5rem auto;
+  width: 80%;
+  border-radius: 5px;
+}
+
+/* Section-1 */
+.sec-1 {
+  background-color: #fff;
+  padding: 2rem 1rem;
+}
+.sec-1 h1 {
+  font-size: 1.3rem;
+  color: var(--primary-cyn);
+  padding-bottom: 1rem;
+}
+.sec-1 p em {
+  color: var(--primary-yellow);
+  padding-bottom: 1rem;
+  display: block;
+}
+.sec-1 p {
+  color: var(--neutral-blue);
+}
+.sec-1 p:last-child {
+  font-size: 0.9rem;
+  line-height: 30px;
+}
+
+/* Section-2 */
+.sec-2 {
+  background-color: var(--primary-cyn);
+  padding: 1.5rem 1rem;
+  font-size: 0.9rem;
+}
+.sec-2 h2 {
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+}
+h2,
+span,
+p,
+#dollor {
+  color: #fff;
+}
+.sec-2 span {
+  font-size: 2rem;
+  display: inline-block;
+  padding-bottom: 0.4rem;
+}
+#sign-up-btn {
+  background-color: var(--primary-yellow);
+  color: #fff;
+  letter-spacing: 1px;
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+/* section-3 */
+.sec-3 {
+  background-color: var(--primary-cyn1);
+  padding: 1.5rem 1rem;
+}
+.sec-3 h2 {
+  padding-bottom: 1rem;
+}
+.sec-3-list {
+  list-style: none;
+  font-size: 0.9rem;
+}
+.sec-3-list li {
+  padding-top: 1rem;
+  line-height: 12px;
+}

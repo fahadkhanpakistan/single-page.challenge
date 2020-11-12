@@ -1,0 +1,50 @@
+@media only screen and (min-width: 800px) {
+  .container {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Section-1 */
+
+  .sec-1 {
+    padding: 3rem 2rem;
+    width: 100%;
+  }
+  .sec-1 h1 {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+  }
+  .sec-1 p em {
+    font-size: 1.5rem;
+  }
+  .sec-1 p:last-child {
+    font-size: 1.1rem;
+  }
+
+  /* Section-2 */
+  .sec-2 h2,
+  .sec-3 h2 {
+    font-size: 1.5rem;
+  }
+  .sec-2 h2 {
+    padding-bottom: 2rem;
+  }
+  .sec-2,
+  .sec-3 {
+    padding: 3rem 2rem;
+    flex: 1;
+  }
+
+  .sec-2 span {
+    font-size: 2.4rem;
+    padding-bottom: 1rem;
+  }
+  .sec-2 p {
+    font-size: 1rem;
+  }
+  #sign-up-btn {
+    display: block;
+    margin: 2rem 0;
+  }
+}
